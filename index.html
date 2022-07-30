@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" type="image/x-icon">
+    <title>Facebook</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/grid.css">
+    <link rel="stylesheet" href="../css/iconAnimation.css">
+    <link rel="stylesheet" href="./src/css/basic.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <!-- header -->
+        <div class="grid header">
+            <div class="row">
+                <div class="col l-3 header__left">
+                    <a href="#" class="logoweb">
+                      <img src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico" alt="">
+                    </a>
+                    <form action="#" class="form form--search">
+                        <button class="form__btn">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input type="text" placeholder="Tìm kiếm trên Facebook">
+                    </form>
+                </div>
+                <ul class="col l-6 nav">
+                    <li class="nav__item">
+                        <a href="#" class="underline nav__link">
+                            <i class="fa-solid fa-house"></i>
+                            <div class="box-down ">
+                                trang chủ
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="underline nav__link">
+                            <i class="fa-solid fa-tv"></i>
+                        </a>
+                        <div class="box-down ">
+                            watch
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="underline nav__link">
+                            <i class="fa-solid fa-shop"></i>
+                            <div class="box-down ">
+                                marketplace
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="underline nav__link">
+                            <i class="fa-solid fa-people-group"></i>
+                            <div class="box-down ">
+                                nhóm
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="underline nav__link">
+                            <i class="fa-solid fa-dice-d6"></i>
+                            <div class="box-down ">
+                                trò chơi
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="col l-3 header__account">
+                    <li class="header__account-item">
+                        <a href="#" class="underline">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                        <div class="box-down ">
+                            menu
+                        </div>
+                    </li>
+                    <li class="header__account-item">
+                        <a href="#" class="underline">
+                            <i class="fa-solid fa-message"></i>
+                        </a>
+                        <div class="box-down ">
+                            messager
+                        </div>
+                    </li>
+                    <li class="header__account-item">
+                        <a href="#" class="underline">
+                            <i class="fa-solid fa-bell"></i>
+                        </a>
+                        <div class="box-down ">
+                            thông báo
+                        </div>
+                    </li>
+                    <li class="header__account-item">
+                        <a href="#" class="header__account-avatar">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar-m">    
+                        </a>
+                        <div class="box-down box-down--end">
+                            trang cá nhân của bạn
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+       <!-- end header -->
+        <!-- content -->
+        <div class="content grid wide ">
+            <div class="row">
+                <div class="col l-3 content__left">
+                    <ul class="content__navbar">
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/story1.jpg" alt="" >
+                                <span>nguyễn trung hiếu</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/friend.png" alt="">
+                                <span>  bạn bè</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/watch.png" alt="">
+                               <span> watch</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/mess.png" alt="">
+                                <span>messager</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/group.png" alt="">
+                                <span>nhóm</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <img src="./src/img/market.png" alt="">
+                               <span> marketplace</span>
+                            </a>
+                        </li>
+                        <li class="content__navbar-item">
+                            <a href="#" class="content__link underline">
+                                <i class="fa-solid fa-chevron-down"></i>
+                                <span>xem thêm</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="content__shortcuts">
+                        <h3 class="content__title">lối tắt của bạn</h3>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story1.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story1.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story1.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story1.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                         <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/hint.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/hint.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story5.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                        <a href="#" class="content__shortcut underline">
+                            <img src="./src/img/story5.jpg" alt="">
+                            <span>hieeu</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col l-6 content__feed l-o-3">
+                    <div class="content__storys">
+                        <div class="content__story content__story--first ">
+                            <img src="./src/img/story1.jpg" alt="" class="content__bg-story">
+                            <div >
+                                <a href="#" class="underline content__story-btn">
+                                    <i class="fa-solid fa-plus"></i>
+                                </a>
+                                <span>tạo tin</span>
+                            </div>
+                        </div>
+                        <div class="content__story ">
+                            <img src="./src/img/story2.jpg" alt="" class="content__bg-story">
+                            <img src="./src/img/story2.jpg" alt="" class="content__user-avatar">
+                            <span class="content__user-name">nguyen trung hieu</span>
+                        </div>
+                        <div class="content__story ">
+                            <img src="./src/img/story3.jpg" alt="" class="content__bg-story">
+                            <img src="./src/img/story3.jpg" alt="" class="content__user-avatar">
+                            <span class="content__user-name">done nguyen</span>
+                        </div>
+                        <div class="content__story ">
+                            <img src="./src/img/story4.jpg" alt="" class="content__bg-story">
+                            <img src="./src/img/story4.jpg" alt="" class="content__user-avatar">
+                            <span class="content__user-name">thuong tran</span>
+                        </div>
+                        <div class="content__story ">
+                            <img src="./src/img/story5.jpg" alt="" class="content__bg-story">
+                            <img src="./src/img/story5.jpg" alt="" class="content__user-avatar">
+                            <span class="content__user-name">hihi</span>
+                        </div>
+
+                        <button class="content__storys-next">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <div class="content__feed-bottom">
+                        <div class="content__createFeed">
+                            <div class="content__createFeed-top">
+                                <a href="#" class="underline">
+                                    <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                </a>
+                                <a href="#" class="content__createFeed-btn underline">
+                                    hiếu ơi, bạn đang nghĩ gì thế ?
+                                </a>
+                            </div>
+                            <div class="content__createFeed-bottom">
+                                <a href="#" class="underline content__createFeed-link">
+                                    <i class="fa-solid fa-camera"></i>
+                                    
+                                    <span>video trực tiếp</span>
+                                </a>
+                                <!--  -->
+                                <a href="#" class="underline content__createFeed-link">
+                                    
+                                    <i class="fa-solid fa-file-image"></i>
+                                    <span>ảnh / video</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="content__myFriend">
+                            <a href="#" class="content__myFriend-zoom underline">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>tạo phòng họp mặt</span>
+                            </a>
+                            <ul class="content__myFriend-list">
+                                <li class="content__myFriend-item">
+                                    <a href="#">
+                                         <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                    </a>
+                                </li>
+                                <li class="content__myFriend-item">
+                                    <a href="#">
+                                         <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                    </a>
+                                </li>
+                                <li class="content__myFriend-item">
+                                    <a href="#">
+                                         <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                    </a>
+                                </li>
+                                <li class="content__myFriend-item">
+                                    <a href="#">
+                                         <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                    </a>
+                                </li>
+                                <li class="content__myFriend-item">
+                                    <a href="#">
+                                         <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="content__myFriend-all underline">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </div>
+                        <!--  -->
+                        <div class="content__news">
+                            <div class="content__news-tpye">Gợi ý cho bạn</div>
+                            <div class="content__news-name">
+                                <a href="#">
+                                    <img src="./src/img/hint.jpg" alt="" class="avatar avatar--m">
+                                </a>
+                                
+                                <div>
+                                    <h3>sinh viên it</h3>
+                                    <span>2 giờ 
+                                        <i class="fa-solid fa-earth-asia"></i>
+                                    </span>
+                                </div>
+                                <a href="#" class="underline">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                </a>
+                            </div>
+                            <div class="content__news-caption">
+                                Nói chung cũng nhàn :)))))))))))))))))
+                            </div>
+                            <a href="#">
+                                <img src="./src/img/news1.png" alt="" width="100%">
+                            </a>
+                            <div class="content__news-emotion">
+                                <div>
+                                    <img src="./src/img/like.svg" alt="">
+                                    <img src="./src/img/love.svg" alt="">
+                                    <img src="./src/img/care.svg" alt="">
+                                    <span>167
+                                        <div class="list-user">
+                                            <ul class="users">
+                                                <li class="user">user 1</li>
+                                                <li class="user">user 2</li>
+                                                <li class="user">user 3</li>
+                                                <li class="user">user 4</li>
+                                                <li class="user">user 5</li>
+                                            </ul>
+                                        </div>
+
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>9 bình luận</span>
+                                    <span>6 chia sẻ</span>
+                                </div>
+                            </div>
+                            <div class="content__news-info">
+                                <button class="btn__emojis">
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                    thích
+                                    <div class="emojis">
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/like.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/love.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/care.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/haha.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/wow.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/sad.svg" alt="">
+                                      </a>
+                                      <a href="#" class="emoji">
+                                        <img src="./src/img/angry.svg" alt="">
+                                      </a>
+                                    </div>
+                                   
+                                </button>
+                                <button class="btn__emojis">
+                                    <i class="fa-solid fa-comment"></i>
+                                    bình luận
+                                </button>
+                                <button class="btn__emojis">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                   chia sẻ
+                                </button>
+                            </div>
+                        </div>
+                        <!--  -->
+                       
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 content__contact">
+                   <div class="content__donor">
+                    <h3 class="content__donor-title">
+                        được tài trợ
+                    </h3>
+                    <div class="content__donor-item">
+                        <img src="./src/img/fpt.jfif" alt="">
+                        <div class="content__donor-content">
+                            <h3 class="content__donor-slogan">
+                                Đặc Quyền HSSV - Giảm Đến  30% - Mua Ngay !
+                            </h3>
+                            <a href="#" class="underline content__donor-link">fptshop.com.vn</a>
+                        </div>
+                    </div>
+
+                    <div class="content__donor-item">
+                        <img src="./src/img/fpt.jfif" alt="">
+                        <div class="content__donor-content">
+                            <h3 class="content__donor-slogan">
+                                Đặc Quyền HSSV - Giảm Đến  30% - Mua Ngay !
+                            </h3>
+                            <a href="#" class="underline content__donor-link">fptshop.com.vn</a>
+                        </div>
+                    </div>
+                   </div>
+
+                   <div class="content__friend">
+                    <div class="content__friend-top">
+                        <h3 class="content__donor-title">
+                           người liên hệ
+                        </h3>
+                        <ul class="content__friend-btns">
+                            <li class="content__friend-btn">
+                                <a href="#">
+                                    <i class="fa-solid fa-camera"></i>
+                                    <div class="box-down">
+                                        phòng họp mặt mới
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="content__friend-btn">
+                                <a href="#">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <div class="box-down">
+                                        tìm kiếm theo tên nhóm
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="content__friend-btn">
+                                <a href="#">
+                                    <i class="fa-solid fa-ellipsis"></i>
+                                    <div class="box-down">
+                                        tùy chọn
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content__friend-list">
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar__friend avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar__friend avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar__friend avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+
+                        <a href="#" class="content__friend-item underline">
+                            <img src="./src/img/hint.jpg" alt="" class="avatar avatar--c">
+                            <span class="content__friend-name">hieu nguyen</span>
+                        </a>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <!-- end content -->
+    </div>
+</body>
+</html>
